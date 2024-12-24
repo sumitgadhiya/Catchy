@@ -1,0 +1,9 @@
+[build]
+  command = "pip install -r requirements.txt"
+  functions = "api"
+
+
+[dev]
+  command = "flask run"
+  targetPort = 5000
+  framework = "#custom"
